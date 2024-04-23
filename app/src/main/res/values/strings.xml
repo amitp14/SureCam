@@ -1,8 +1,6 @@
 <resources>
     <string name="app_name">SureCam</string>
     <string name="com_auth0_scheme">https</string>
-    <!--<string name="com_auth0_client_id">YCcN6MpJiHOtMtlPjr6Kn4YzpBujE3qf</string>
-    <string name="com_auth0_domain">dev-udbwiyxt.eu.auth0.com</string>-->
-    <string name="com_auth0_client_id">RHGnG9nIuFfaTA3XKegHEHm1bgevT304</string>
-    <string name="com_auth0_domain">dev-643bepjdc3kr1y4c.us.auth0.com</string>
+    <string name="com_auth0_client_id">dXAz1dk8UZMWyGXL8EQB3hprGp5UGkZD</string>
+    <string name="com_auth0_domain">dev-udbwiyxt.eu.auth0.com</string>
 </resources>

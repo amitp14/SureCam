@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         // Create a reusable Lock instance
         lock = Lock.newBuilder(account, callback)
             // Customize Lock
-            .closable(true).withScope("openid profile user_id")
+            .closable(true).withScope("openid profile")
             .withScheme("@string/com_auth0_scheme")
             .build(this)
 
@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         override fun onAuthentication(credentials: Credentials) {
-            val next = Intent(this@MainActivity, AuthenticatedActivity::class.java)
+            val next = Intent(this@MainActivity, TurboActivity::class.java)
             startActivity(next)
             finish()
         }
