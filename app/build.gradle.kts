@@ -57,6 +57,10 @@ dependencies {
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.auth0.java.jwt)
+    implementation(libs.kotlin.onetimepassword)
+    implementation(libs.squareup.picasso)
+
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
