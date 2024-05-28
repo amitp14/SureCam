@@ -12,7 +12,7 @@ android {
         minSdk = 24
         targetSdk = 34
         versionCode = 1
-        versionName = "1.0"
+        versionName = "0.0.1"
 
         manifestPlaceholders["auth0Domain"] = "@string/com_auth0_domain"
         manifestPlaceholders["auth0Scheme"] = "@string/com_auth0_scheme"
@@ -57,6 +57,10 @@ dependencies {
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.auth0.java.jwt)
+    implementation(libs.kotlin.onetimepassword)
+    implementation(libs.squareup.picasso)
+
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
